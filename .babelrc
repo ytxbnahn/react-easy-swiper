@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "transform-remove-strict-mode",
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "loose": true,
+        "modules": false
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}

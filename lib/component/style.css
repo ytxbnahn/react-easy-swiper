@@ -1,0 +1,15 @@
+.react-easy-swiper {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+
+.react-easy-swiper-wrapper {
+    overflow: hidden;
+    transition: .5s transform
+}
+
+.re-swiper-item {
+    display: inline-block;
+    /* vertical-align: top; */
+}
